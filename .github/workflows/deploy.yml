@@ -5,8 +5,8 @@ on:
 
 env:
   applicationfolder: demo
-  AWS_REGION: ##region##
-  S3BUCKET: ##s3-bucket## 
+  AWS_REGION: us-east-1
+  S3BUCKET: codedeploystack-webappdeploymentbucket-uf70gl618r4m
 
 
 jobs:
