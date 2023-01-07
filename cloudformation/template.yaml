@@ -1,7 +1,6 @@
 ---
 AWSTemplateFormatVersion: 2010-09-09
-Description: 'Cloudformation for provisioning services required to setup the CI/CD using GitHub actions and CodeDeploy. 
-**WARNING** This template creates EC2,VPC and related resources. You will be billed for the AWS resources used if you create a stack from this template'
+Description: 'Cloudformation for provisioning services required to setup the CI/CD using GitHub actions and CodeDeploy.'
 Metadata:
   AWS::CloudFormation::Interface:
     ParameterGroups:
