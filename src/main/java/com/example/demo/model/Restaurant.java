@@ -3,6 +3,7 @@ package com.example.demo.model;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.Set;
 
 @Entity
 @Table(name = "restaurants")
@@ -18,5 +19,8 @@ public class Restaurant {
 
     @Column(name = "location")
     private String location;
+
+    @ManyToMany
+    Set<Food> foods;
 
 }
