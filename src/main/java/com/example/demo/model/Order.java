@@ -22,8 +22,11 @@ public class Order {
     @Column(name = "status")
     private String status = "Order Placed";
 
-    @Column(name = "total")
-    private double total = 0.00;
+    @Column(name = "qty")
+    private int qty;
+
+    @Column(name = "price")
+    private double price;
 
 
 }
