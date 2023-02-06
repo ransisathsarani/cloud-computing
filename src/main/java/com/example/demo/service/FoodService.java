@@ -26,6 +26,7 @@ public class FoodService {
 
     }
 
+    //Update Food
     public Food updateFood(int foodId, Food food) {
         Food existingFood = foodRepository.findById(foodId).orElseThrow(() -> new RuntimeException("not found"));
         existingFood.setName(food.getName());
