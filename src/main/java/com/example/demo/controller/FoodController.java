@@ -43,6 +43,7 @@ public class FoodController {
     }
 
     //delete
+    // delete function
     @DeleteMapping("/food")
     public ResponseEntity<Food> deleteFood(@RequestParam(name = "foodId") int foodId){
         Food deletedFood = foodService.deleteFood(foodId);
